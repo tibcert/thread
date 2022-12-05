@@ -23,6 +23,7 @@ jobs:
     - name: Set up Ruby
       uses: ruby/setup-ruby@1.62.0
       with:
+        ruby-version: '3.0'
         bundler-cache: true
     - name: "Build Site"
       run: bundle exec jekyll build
@@ -30,3 +31,6 @@ jobs:
         JEKYLL_ENV: production
     - name: "Deploy to AWS S3"
       run: aws s3 sync ./_site/ s3://timeline-target-attack --acl public-read --delete --cache-control max-age=604800
+
+
+

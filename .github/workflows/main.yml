@@ -1,6 +1,5 @@
 name: Sync github to AWS S3 Bucket
 
-
 on:
   push:
     branches:
