@@ -1,0 +1,98 @@
+---
+layout: default
+---
+
+                  <div data-w-id="scroll-1" class="timeline_item">
+                     <div id="jan12-t" class="timeline_left">
+                        <div class="timeline_date-text">January 2012
+                           <p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Consequuntur unde libero iste. Eaque illo et fugiat ab illum eum laudantium alias tenetur praesentium? Quam dicta fugit odio corrupti harum illo.</p>
+                        </div>
+
+                     </div>
+                     <div id="jan2012" class="timeline_centre">
+                        <div class="timeline_circle"></div>
+                     </div>
+                     <div class="timeline_right">
+                         <div class="timeline_milestone-badge">
+                           <div class="">🚀 Milestone Badge </div>
+                        </div>
+                        <div class="margin-bottom-xlarge">
+                           <h3>test</h3>
+                           <p class="timeline_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, quidem impedit quod recusandae. Cupiditate in ipsum tenetur dignissimos odit, nam est. Repellat alias incidunt doloribus excepturi neque unde quisquam molestiae!.</p>
+                            <a href="#" class="timeline_link w-inline-block">
+                                 <div>Sample Link Text</div>
+                                 <img src="https://assets.website-files.com/60dd72519d9f9f67690ae425/60de4e982f499b91260e0e91_open_in_new.svg" loading="lazy" alt="" class="link-icon"/>
+                              </a>
+                             <p class="text-colour-lightgrey">Added css class "text-colour-lightgrey" to this paragraph<br/></p>
+                        </div>
+                        <div class="margin-bottom-xlarge">
+                           <div class="timeline_definition-wrapper">
+                              <p class="text-colour-white">relume<br/></p>
+                              <div class="timeline_badge">
+                                 <div>verb</div>
+                              </div>
+                              <p class="text-colour-lightgrey">[ri-loom]<br/><span class="text-colour-white">code</span></p>
+                           </div>
+                        </div>
+                         <div class="timeline_image-wrapper"><img src="assets/60dda4ae36510574b1a7932a_Image%201%20-%20Transparent.png" loading="lazy" width="480"></div>
+                         <br>
+                        <div class="timeline_quote-wrapper">
+                           <img src="assets/60de52655aae394d43a0ac08_Dan.jpg" loading="lazy" alt="" class="timeline_quote-image"/>
+                           <div class="timeline_quote-text-wrapper">
+                              <p class="timeline_quote">“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo asperiores fugit quidem fuga quae, similique accusamus vero, esse sint, blanditiis molestiae velit alias nobis minus sed culpa laboriosam voluptate a!”<br/></p>
+                              <p class="timeline_quote-title">Dan, Co-founder and CEO of Lumio<br/></p>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+                  <div data-w-id="scroll-2" class="timeline_item">
+                     <div id="june16-t" class="timeline_left">
+                        <div class="timeline_date-text">June 2016</div>
+                     </div>
+                     <div id="june2016" class="timeline_centre">
+                        <div class="timeline_circle"></div>
+                     </div>
+                     <div class="timeline_right">
+                        <div class="margin-bottom-medium">
+                           <div class="timeline_text">Adam catches wind of Dan’s early success and slides into his DM offering help. Dan politely accepts.<br/></div>
+                        </div>
+                        <div class="margin-bottom-xlarge">
+                           <div class="inline-block">
+                              <a href="#" target="_blank" class="timeline_link w-inline-block">
+                                 <div>See the article that got Adam’s attention</div>
+                                 <img src="https://assets.website-files.com/60dd72519d9f9f67690ae425/60de4e982f499b91260e0e91_open_in_new.svg" loading="lazy" alt="" class="link-icon"/>
+                              </a>
+                           </div>
+                        </div>
+                        <div class="timeline_image-wrapper"><img src="assets/60de4fe2f3220f62c99e3f0f_Image%202.png" loading="lazy" width="480"></div>
+                     </div>
+                  </div>
+
+ {% for post in site.posts %}
+
+                    <div data-w-id="scroll-2" class="timeline_item">
+                     <div id="june16-t" class="timeline_left">
+                        <div class="timeline_date-text">{{ post.title }}
+                             <p> {{post.description}}</p>
+                        </div>
+                     </div>
+                     <div id="june2016" class="timeline_centre">
+                        <div class="timeline_circle"></div>
+                     </div>
+                     <div class="timeline_right">
+                        <div class="margin-bottom-medium">
+                           <div class="timeline_text">Adam catches wind of Dan’s early success and slides into his DM offering help. Dan politely accepts.<br/></div>
+                        </div>
+                        <div class="margin-bottom-xlarge">
+                           <div class="inline-block">
+                              <a href="#" target="_blank" class="timeline_link w-inline-block">
+                                 <div>See the article that got Adam’s attention</div>
+                                 <img src="https://assets.website-files.com/60dd72519d9f9f67690ae425/60de4e982f499b91260e0e91_open_in_new.svg" loading="lazy" alt="" class="link-icon"/>
+                              </a>
+                           </div>
+                        </div>
+                        <div class="timeline_image-wrapper"><img src="assets/60de4fe2f3220f62c99e3f0f_Image%202.png" loading="lazy" width="480"></div>
+                     </div>
+                  </div>
+  {% endfor %}
