@@ -21,7 +21,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Set up Ruby
-      uses: ruby/setup-ruby@v2.6.6p146
+      uses: ruby/setup-ruby@1.62.0
       with:
         bundler-cache: true
     - name: "Build Site"
