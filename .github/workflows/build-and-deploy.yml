@@ -23,7 +23,7 @@ jobs:
     - name: Set up Ruby
       uses: ruby/setup-ruby@1
       with:
-        ruby-version: 2.7
+        ruby-version: .ruby-version
         bundler-cache: true
     - name: "Build Site"
       run: bundle exec jekyll build
