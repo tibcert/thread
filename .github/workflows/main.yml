@@ -1,4 +1,4 @@
-name: Sync Thingstrap to AWS S3 Bucket
+name: Sync github to AWS S3 Bucket
 
 
 on:
@@ -7,7 +7,7 @@ on:
       - main
 
 jobs:
-  iamvarshith_dev:
+  tibcert_dev:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
