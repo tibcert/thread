@@ -25,7 +25,6 @@ jobs:
       with:
         ruby-version: '3.1'
     - name: "Build Site"
-      run: bundle install
       run: bundle exec jekyll build
       env:
         JEKYLL_ENV: production
