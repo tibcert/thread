@@ -25,7 +25,7 @@ jobs:
       with:
         ruby-version: '3.1'
     - name: "Build Site"
-      run: bundle exec jekyll build
+      run:  jekyll build
       env:
         JEKYLL_ENV: production
     - name: "Deploy to AWS S3"
