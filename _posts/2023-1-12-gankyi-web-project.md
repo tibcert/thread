@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  'The "Gangky Wide Web project"'
-date:   1997-11-17 15:39:55 +0530
+date:   2023-1-10 15:39:55 +0530
 categories: jekyll update
-tagline: "when internet comes to India"
+tagline: "When the internet comes to India"
 year: "1997"
 ---
 <div class="timeline_right">

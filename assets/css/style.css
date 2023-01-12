@@ -2006,7 +2006,6 @@ h1 {
 
 h2 {
 	font-size: 56px;
-	text-shadow: 3px 3px 3px #ff0000;
 }
 
 .paragraph-large,
@@ -2181,7 +2180,6 @@ h4 {
 	color: #fff;
 	font-size: 48px;
 	letter-spacing: -.03em;
-	text-shadow: 3px 3px 3px #ff0000;
 
 }
 
@@ -2758,7 +2756,6 @@ h4 {
 	position: sticky;
 	top: 50vh;
 	color: #fff;
-	text-shadow: 3px 3px 3px #ff0000;
 	
 }
 	iframe{
@@ -2899,7 +2896,6 @@ h4 {
 .timeline-hero_heading-wrapper 
 
 *{color:white;
-text-shadow: 3px 3px 3px #ff0000;
 }
 .timeline-hero_heading-wrapper h1{
 	color:#ff8d00;

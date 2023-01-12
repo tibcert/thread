@@ -10,7 +10,7 @@ layout: default
                   <div class="timeline_progress">
                   <div data-w-id="jan2012" class="timeline_progress-bar"></div>
                   </div>   
- {% for post in site.posts %}
+ {% for post in site.posts reversed %}
                     <div data-w-id="scroll-2" class="timeline_item">
                      <div id="june16-t" class="timeline_left">
                         <div class="timeline_date-text">{{ post.year }}
