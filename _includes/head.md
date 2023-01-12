@@ -12,5 +12,5 @@
       <link href="assets/Favicon.png" rel="shortcut icon" type="image/x-icon"/>
       <link href="assets/Webclip.png" rel="apple-touch-icon"/>
       <script async="" src="https://www.googletagmanager.com/gtag/js?id='tracking code here'"></script><script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', '', {'anonymize_ip': false});</script>
-      
+
    </head>

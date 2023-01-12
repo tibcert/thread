@@ -1,14 +1,15 @@
 ---
 layout: post
 title:  'The "Gangky Wide Web project"'
-date:   2022-11-17 15:39:55 +0530
+date:   1997-11-17 15:39:55 +0530
 categories: jekyll update
-description: "1997 "
+tagline: "when internet comes to India"
 year: "1997"
 ---
 <div class="timeline_right">
    <div class="margin-bottom-medium">
       <div class="timeline_text">
+         <h3>The "Gangky Wide Web project"</h3>
          <p>In 1997 with the help of Dan Haig and his team, the internet was first brought to the Tibetan community in Dharamshala specifically to Central Tibetan Administration (CTA) then known as the Tibetan Government in Exile.</p>
       <br/></div>
    </div>

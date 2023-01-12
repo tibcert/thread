@@ -1,4 +1,5 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
 legend,
 td,
 th {
@@ -2004,7 +2005,8 @@ h1 {
 }
 
 h2 {
-	font-size: 56px
+	font-size: 56px;
+	text-shadow: 3px 3px 3px #ff0000;
 }
 
 .paragraph-large,
@@ -2030,7 +2032,7 @@ h4 {
 
 .timeline-hero_heading-wrapper,
 .timeline-main_heading-wrapper {
-	max-width: 640px;
+	max-width: 800px;
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto
@@ -2178,7 +2180,9 @@ h4 {
 	top: 50vh;
 	color: #fff;
 	font-size: 48px;
-	letter-spacing: -.03em
+	letter-spacing: -.03em;
+	text-shadow: 3px 3px 3px #ff0000;
+
 }
 
 .timeline_date-text p {
@@ -2754,6 +2758,7 @@ h4 {
 	position: sticky;
 	top: 50vh;
 	color: #fff;
+	text-shadow: 3px 3px 3px #ff0000;
 	
 }
 	iframe{
@@ -2893,7 +2898,9 @@ h4 {
 
 .timeline-hero_heading-wrapper 
 
-*{color:white;}
+*{color:white;
+text-shadow: 3px 3px 3px #ff0000;
+}
 .timeline-hero_heading-wrapper h1{
 	color:#ff8d00;
 }

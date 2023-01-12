@@ -14,7 +14,7 @@ layout: default
                     <div data-w-id="scroll-2" class="timeline_item">
                      <div id="june16-t" class="timeline_left">
                         <div class="timeline_date-text">{{ post.year }}
-                             <p> {{post.title}}</p>
+                             <p> {{post.tagline}}</p>
                         </div>
                      </div>
                      <div id="june2016" class="timeline_centre">
