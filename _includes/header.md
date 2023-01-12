@@ -5,7 +5,7 @@
             <div class="hero-nav">
                <a href="#" target="_blank" class="relume-link w-inline-block">
                   <div class="relume-logo-primary w-embed">
-                   <h3>Page Name</h3>
+                   <h3></h3>
                   </div>
                </a>
                <div class="hero-nav_button-wrapper">
@@ -20,11 +20,11 @@
             <div class="container">
                <div class="padding-vertical-xxlarge">
                   <div class="timeline-hero_heading-wrapper">
-                     <h1>Samplee <span class="">Timeline</span></h1>
+                     <h1>Timeline of Targeted Attacks<span class=""> in the Tibetan Community</span></h1>
                      <div class="margin-bottom-medium">
-                        <h4>Lorem ipsum dolor sit </h4>
+                        <h4></h4>
                      </div>
-                     <p class="paragraph-large">Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis voluptatum a quae explicabo dolore officiis quis modi consequatur, similique. Illum voluptates dolores cupiditate culpa officia facilis odio ipsa, dignissimos. Non?.</p>
+                     <p class="paragraph-large">Since the Tibetan movement emerged in the world of the internet in the late 90s, unprecedented cyberattacks from the adversary have always been a challenge. This timeline shows some of the key events and attacks that have happened in the Tibetan community till date. This covers events such as the internet coming to the Tibetan community and various attacks </p>
                   </div>
                </div>
             </div>
